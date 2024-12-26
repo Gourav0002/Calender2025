@@ -1,0 +1,125 @@
+caption{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+}
+
+.one{
+    width: 25%;
+}
+
+.table-row-color{
+    background-color: green;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.table-row-color-1{
+    background-color: lightgreen;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.table-row{
+    height: 40px;
+    width: 40px;
+}
+
+td{
+    text-align: center;
+}
+
+.holiday{
+    background-color: red;
+    color : white;
+}
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    background: linear-gradient(to bottom, #eef2f3, #8e9eab);
+    color: #333;
+}
+
+header {
+    background: #4CAF50;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+caption {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5em;
+    margin: 10px;
+    color: #4CAF50;
+}
+
+th, td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+th {
+    background: #4CAF50;
+    color: white;
+    font-weight: bold;
+}
+
+.holiday {
+    background: #ff5722;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+td:hover {
+    background: #f1f1f1;
+    cursor: pointer;
+}
+
+img {
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.holiday-events {
+    margin: 40px auto;
+    width: 80%;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    padding: 20px;
+}
+
+.holiday-events h2 {
+    text-align: center;
+    font-size: 1.8em;
+    color: #4CAF50;
+   margin-bottom: 20px;
+}
+
+.holiday-events table {
+    width: 100%;
+}
+
+.holiday-events td {
+    padding: 10px;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.holiday-events img {
+    height: 50px;
+    width: 50px;
+    margin-right: 15px;
+}
